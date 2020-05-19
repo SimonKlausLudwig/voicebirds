@@ -16,6 +16,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+.idea
 
 # nyc test coverage
 .nyc_output
@@ -53,7 +54,6 @@ jspm_packages/
 
 # gatsby files
 .cache/
-public
 
 # Mac files
 .DS_Store
