@@ -1,0 +1,23 @@
+.contactBubbleWrapper{
+  display: grid;
+  align-items: center;
+
+
+  img{
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .contactInfo{
+    grid-row: 1;
+    grid-column: 1;
+    padding: 30px 80px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactInfo *{
+    color: white;
+  }
+}

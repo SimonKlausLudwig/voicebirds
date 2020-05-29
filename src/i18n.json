@@ -1,0 +1,43 @@
+{
+  "pages": {
+    "homepage": {
+      "de": "Startseite"
+    },
+    "speaker": {
+      "de": "Sprecher"
+    },
+    "about": {
+      "de": "Über Uns"
+    },
+    "contact": {
+      "de": "Kontakt"
+    }
+  },
+  "footer": {
+    "footMap": {
+      "links": {
+        "de": "Links"
+      },
+      "others": {
+        "de": "Spannende"
+      }
+    },
+    "footMapItems": {
+      "about": {
+        "de": "Über Uns"
+      },
+      "speaker": {
+        "de": "Sprecher"
+      },
+      "imprint": {
+        "de": "Impressum"
+      },
+      "dataprotection": {
+        "de": "Datenschutz"
+      },
+      "contact": {
+        "de": "Kontakt"
+      }
+    }
+  }
+}

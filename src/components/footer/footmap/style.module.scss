@@ -1,0 +1,15 @@
+.footMap{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footMapItems{
+  margin-top: 12px;
+
+  a{
+    margin-bottom: 8px;
+  }
+}

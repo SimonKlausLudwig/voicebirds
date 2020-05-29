@@ -1,0 +1,35 @@
+.button {
+  background: #fb5895;
+  border-radius: 24px;
+  padding: 4px 16px;
+  color: white;
+
+  &.small {
+    padding: 4px 16px;
+  }
+
+  &.medium {
+    padding: 8px 32px;
+  }
+
+  &.big {
+    padding: 14px 32px;
+  }
+
+  &.outline {
+    border: solid 2px #f7f7f7;
+    background: transparent;
+  }
+
+  &.secondary {
+    background: #59ceed;
+  }
+
+  &.normal {
+
+  }
+}
+
+.button:hover {
+  background: black;
+}

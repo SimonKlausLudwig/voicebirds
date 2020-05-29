@@ -1,0 +1,14 @@
+.person{
+  background: white;
+  box-shadow: 0 4px 30px 10px rgba(251, 110, 164, 0.27);
+}
+
+.infos{
+  padding: 16px 23px;
+  display: flex;
+  flex-direction: column;
+
+  .personDescription{
+    margin-bottom: 12px;
+  }
+}

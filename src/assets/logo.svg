@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="237" height="42" viewBox="0 0 237 42">
+    <g fill="none" fill-rule="evenodd">
+        <text fill="#FFF" font-family="Oxygen-Bold, Oxygen" font-size="36" font-weight="bold" letter-spacing="-1.2" transform="translate(-8)">
+            <tspan x="0" y="39"> </tspan> <tspan x="94.413" y="39.088" font-family="Oxygen-Light, Oxygen" font-weight="300">birds</tspan>
+        </text>
+        <text fill="#3B86B9" font-family="Oxygen-Bold, Oxygen" font-size="36" font-weight="bold" letter-spacing="-1.2" transform="translate(-8)">
+            <tspan x="8" y="39">voice</tspan>
+        </text>
+        <g>
+            <path fill="#FFF" d="M0 6.725L19.712 3.254 40.015 10.804 49.192 0 70.6 17.2 57.385 14.432 36.948 41.6 5.76 28.8 23.418 29.735 15.19 11.369z" transform="translate(-8) translate(174)"/>
+            <path fill="#FFF" d="M49.192 0L70.494 17.18 40.015 10.804z" transform="translate(-8) translate(174)"/>
+            <path fill="#ECECEC" stroke="#ECECEC" stroke-width="2.44" d="M55.256 15.233l-14.162-2.957-2.5 25.104 16.662-22.147z" transform="translate(-8) translate(174)"/>
+            <path fill="#FFF" d="M40.015 10.804L36.948 41.597 23.418 29.735z" transform="translate(-8) translate(174)"/>
+            <path fill="#F7F7F7" d="M40.015 10.804L19.712 3.254 15.056 11.369 23.418 29.735z" transform="translate(-8) translate(174)"/>
+            <path fill="#FFF" d="M15.056 11.369L0 6.725 19.712 3.254z" transform="translate(-8) translate(174)"/>
+            <path fill="#F8F8F8" d="M23.703 29.883L5.76 28.8 36.948 41.597z" transform="translate(-8) translate(174)"/>
+        </g>
+    </g>
+</svg>

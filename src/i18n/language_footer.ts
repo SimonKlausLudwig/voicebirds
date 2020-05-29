@@ -1,0 +1,1 @@
+export const i18n_footer = {"footMap":{"links":"Links","others":"Spannende"},"footMapItems":{"about":"Über Uns","speaker":"Sprecher","imprint":"Impressum","dataprotection":"Datenschutz","contact":"Kontakt"}};

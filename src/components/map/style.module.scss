@@ -1,0 +1,19 @@
+.map {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  width: 954px;
+  margin: auto;
+
+  img {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .mapImage{
+    width: 300px;
+    margin: auto;
+  }
+}

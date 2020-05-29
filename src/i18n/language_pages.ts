@@ -1,0 +1,1 @@
+export const i18n_pages = {"homepage":"Startseite","speaker":"Sprecher","about":"Über Uns","contact":"Kontakt"};

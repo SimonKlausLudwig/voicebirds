@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="422" height="356" viewBox="0 0 422 356">
+    <defs>
+        <linearGradient id="prefix__a" x1="50%" x2="50%" y1="0%" y2="38.158%">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#BCF4FF" stop-opacity=".8"/>
+        </linearGradient>
+        <linearGradient id="prefix__b" x1="50%" x2="50%" y1="-10.052%" y2="104.26%">
+            <stop offset="0%" stop-color="#FD91C7" stop-opacity=".9"/>
+            <stop offset="100%" stop-color="#FB5895" stop-opacity=".9"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#prefix__a)" d="M356.932 27.805c54.388-36.88 239.226 67.342 250.6 96.059 5.734 14.479 9.817 55.444-2.958 97.49-15.245 50.178-49.375 76.823-79.186 79.932-54.79 5.714-183.519-23.249-223.337-72.718-39.818-49.47.493-163.883 54.881-200.763z" transform="translate(-191) rotate(180 449.5 161)"/>
+        <path fill="url(#prefix__b)" d="M126.463 13.7c96.968-64.736 426.51 118.207 446.787 168.614 10.224 25.415 17.503 97.322-5.273 171.127-27.18 88.078-88.029 134.848-141.178 140.305-97.685 10.03-327.19-40.809-398.182-127.643-70.99-86.835.879-287.667 97.846-352.403z" transform="translate(-191) rotate(180 291.5 247.5)"/>
+    </g>
+</svg>
