@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Group 2 Copy 2@3x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Favicon">
+            <g id="Group-3-Copy">
+                <g id="Group-2">
+                    <g id="Group-2-Copy-2">
+                        <rect id="Rectangle" fill="#59CEED" x="0" y="0" width="512" height="512" rx="131"></rect>
+                        <text id="birds" fill="#FFFFFF" font-family="Oxygen-Bold, Oxygen" font-size="54" font-weight="bold" line-spacing="60" letter-spacing="-1.80000007">
+                            <tspan x="126" y="425">           </tspan>
+                            <tspan x="267.619921" y="425.131836" font-family="Oxygen-Light, Oxygen" font-weight="300">birds</tspan>
+                        </text>
+                        <text id="voice" fill="#FFFFFF" font-family="Oxygen-Bold, Oxygen" font-size="54" font-weight="bold" line-spacing="60" letter-spacing="-1.80000007">
+                            <tspan x="138" y="425">voice</tspan>
+                        </text>
+                        <polygon id="Path-8" fill="#FFFFFF" points="44 140.350938 162.274064 119.524375 284.087891 164.822266 339.149379 100 467.6 203.2 388.312988 186.591309 265.688285 349.6 78.5600005 272.800003 184.506877 278.41094 135.137657 168.211564"></polygon>
+                        <polygon id="Path-2" fill="#FFFFFF" points="339.149379 100 466.963013 203.082886 284.087891 164.822266"></polygon>
+                        <path d="M375.534697,191.400325 L290.564678,173.653007 L275.564309,324.279819 L375.534697,191.400325 Z" id="Path-3" stroke="#ECECEC" stroke-width="14.64" fill="#ECECEC"></path>
+                        <polygon id="Path-4" fill="#FFFFFF" points="284.087891 164.822266 265.688285 349.58266 184.506877 278.41094"></polygon>
+                        <polygon id="Path-5" fill="#F7F7F7" points="284.087891 164.822266 162.274064 119.524375 134.334689 168.211564 184.506877 278.41094"></polygon>
+                        <polygon id="Path-6" fill="#FFFFFF" points="134.334689 168.211564 44 140.350938 162.274064 119.524375"></polygon>
+                        <polygon id="Path-7" fill="#F8F8F8" points="186.21965 279.296878 78.5600005 272.800003 265.688285 349.58266"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

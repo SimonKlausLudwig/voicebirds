@@ -1,9 +1,11 @@
 import React from 'react';
-import Illustration from "../../components/illustration";
-import Layout from "../../components/layout";
-import Speaker, {SpeakerArea} from "../../components/speaker";
-import FilterGrid from "../../components/filtergrid";
-import BlockTitle from "../../components/title";
+import Illustration from "../../../test_project/src/illustration";
+import Layout from "../../../test_project/src/layout";
+import Speaker, {SpeakerArea} from "../../../test_project/src/speaker";
+import FilterGrid from "../../../test_project/src/filtergrid";
+import BlockTitle from "../../../test_project/src/title";
+import Container from "../../../test_project/src/container";
+import {getSpeakerList} from "../index";
 
 const SpeakerPage: React.FC = () => {
   return (
@@ -11,29 +13,12 @@ const SpeakerPage: React.FC = () => {
       <Illustration/>
 
 
-      <BlockTitle title={"Unsere Sprecher im Überblick"}
-                  description={"Du kannst unsere Sprecher in den drei Kategorien Budget, Premium und Enterprise buchen."}/>
+      <Container>
+        <BlockTitle title={"Unsere Sprecher im Überblick"}
+                    description={"Du kannst unsere Sprecher in den drei Kategorien Budget, Premium und Enterprise buchen."}/>
 
-      <FilterGrid items={(filter: any) =>
-        [<Speaker name={"Simon Ludwig"}
-                  image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"} mp3={""}
-                  areas={[SpeakerArea.PHONE, SpeakerArea.RADIO]}/>,
-          <Speaker name={"Simon Ludwig"}
-                   image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"} mp3={""}
-                   areas={[SpeakerArea.PHONE, SpeakerArea.RADIO]}/>,
-          <Speaker name={"Simon Ludwig"}
-                   image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"} mp3={""}
-                   areas={[SpeakerArea.PHONE, SpeakerArea.RADIO]}/>,
-          <Speaker name={"Simon Ludwig"}
-                   image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"} mp3={""}
-                   areas={[SpeakerArea.PHONE, SpeakerArea.RADIO]}/>,
-          <Speaker name={"Simon Ludwig"}
-                   image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"} mp3={""}
-                   areas={[SpeakerArea.PHONE, SpeakerArea.RADIO]}/>,
-          <Speaker name={"Simon Ludwig"}
-                   image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"} mp3={""}
-                   areas={[SpeakerArea.PHONE, SpeakerArea.RADIO]}/>]
-      }/>
+        <FilterGrid items={(filter: any) => getSpeakerList(filter)}/>
+      </Container>
 
 
     </Layout>)

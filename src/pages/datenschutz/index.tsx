@@ -1,15 +1,8 @@
 import React from 'react';
-import Header from '../../components/header';
-import logo from '../../assets/logo.svg';
-import Illustration from "../../components/illustration";
-import BlockTitle from "../../components/title";
-import Person from "../../components/person";
-import CallToAction from "../../components/cta";
-import Map from "../../components/map";
-import Testimonial from "../../components/testimonials";
-import * as style from './style.module.scss';
-import Layout from "../../components/layout";
-import BlueBlock from "../../components/blueblock";
+import Illustration from "../../../test_project/src/illustration";
+import BlockTitle from "../../../test_project/src/title";
+import Layout from "../../../test_project/src/layout";
+import BlueBlock from "../../../test_project/src/blueblock";
 
 const DataprotectionPage: React.FC = () => {
   return (

@@ -1,7 +1,15 @@
+@import 'test_project/src/layout/base.scss';
+
 .teaser {
-  margin-top: 150px;
-  margin-left: 750px;
-  max-width: 470px;
+
+  display: grid;
+  grid-auto-flow: column;
+  grid-gap: 100px;
+  align-items: center;
+  justify-content: center;
+  img{
+    width: 350px;
+  }
 
   h1{
     margin-bottom: 12px;
@@ -11,7 +19,39 @@
     margin-bottom: 32px;
   }
 
-  .teaserButton{
-    margin-right: 12px;
+  button{
+    white-space: nowrap;
+  }
+
+  .buttonBar{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 15px;
+    grid-template-columns: min-content min-content;
+  }
+
+  @include smartphone {
+    img{
+      display: none;
+    }
+
+    .buttonBar{
+      grid-row-gap: 15px;
+      grid-auto-flow: row;
+      grid-template-columns: min-content;
+      justify-content: center;
+    }
+
+    .buttonBar button{
+      width: 100%;
+    }
+
+
+  }
+}
+
+@include smartphone{
+  .quickLink{
+    display: none !important;
   }
 }
