@@ -16,10 +16,13 @@ import Form from "../../test_project/src/form";
 import Video from "../../test_project/src/video/video";
 import {i18n_speakers} from "../i18n/language_speakers";
 import IllustrationAlt from "../../test_project/src/illustration_alt";
+import SEO from "../../test_project/src/seo/seo";
 
-const IndexPage: React.FC = () => {
+const IndexPage: React.FC = (props) => {
   return (
     <Layout>
+
+      <SEO siteProps={props} title={"Hallo Andre"}/>
 
       <IllustrationAlt/>
 
