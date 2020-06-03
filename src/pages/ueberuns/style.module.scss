@@ -1,0 +1,16 @@
+@import 'test_project/src/layout/base.scss';
+
+.team{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 32px;
+}
+
+
+
+@include smartphone {
+  .team{
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+  }
+}

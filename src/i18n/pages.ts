@@ -1,0 +1,1 @@
+export const PAGE_PATHS = {"404":{"path":"/404/"},"":{"path":"/"},"COOKIES":{"path":"/cookies/"},"DATENSCHUTZ":{"path":"/datenschutz/"},"IMPRINT":{"path":"/imprint/"},"KONFIGURATOR":{"path":"/konfigurator/"},"KONTAKT":{"path":"/kontakt/"},"SPRECHER":{"path":"/sprecher/"},"UEBERUNS":{"path":"/ueberuns/"},"404.HTM":{"path":"/404.html"}};

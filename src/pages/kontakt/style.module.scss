@@ -1,0 +1,17 @@
+.contactRow{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 30px;
+  max-width: 70%;
+  margin: auto;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactForm p{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+.team{
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 32px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.buttonBar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 24px;
+}

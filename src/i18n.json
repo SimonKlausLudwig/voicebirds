@@ -1,0 +1,171 @@
+{
+  "pages": {
+    "homepage": {
+      "de": "Startseite"
+    },
+    "speaker": {
+      "de": "Sprecher"
+    },
+    "about": {
+      "de": "Über Uns"
+    },
+    "contact": {
+      "de": "Kontakt"
+    }
+  },
+  "footer": {
+    "footMap": {
+      "links": {
+        "de": "Links"
+      },
+      "others": {
+        "de": "Spannende"
+      }
+    },
+    "footMapItems": {
+      "about": {
+        "de": "Über Uns"
+      },
+      "speaker": {
+        "de": "Sprecher"
+      },
+      "imprint": {
+        "de": "Impressum"
+      },
+      "dataprotection": {
+        "de": "Datenschutz"
+      },
+      "contact": {
+        "de": "Kontakt"
+      }
+    }
+  },
+  "speakers": [
+    {
+      "name": {
+        "de": "Falk",
+        "en": "Falk",
+        "es": "",
+        "pt": "Falk"
+      },
+      "description": {
+        "de": "Falk ist Sprecher und Audioingenieur mit 20 Jahren an Erfahrung. Er beeindruckt seine Zuhörer besonders mit seiner lebendigen und energischen Stimme.",
+        "en": "Falk is a voice over artist and audio engineer with 20 years of experience. He particularly impresses his listeners with his lively and energetic voice.",
+        "es": "",
+        "pt": "Falk é uma voz sobre artista e engenheiro de áudio com 20 anos de experiência. Ele impressiona os seus ouvintes especialmente com a sua voz viva e enérgica"
+      }
+    },
+    {
+      "name": {
+        "de": "Anna",
+        "en": "Anna",
+        "es": "",
+        "pt": "Anna"
+      },
+      "description": {
+        "de": "Mit über 2000 Sprachaufnahmen ist Anna eine sehr erfahrene Sprecherin. Ihre klare Stimme zaubert unseren Kunden stets ein Lächeln ins Gesicht.",
+        "en": "With over 2000 voice recordings Anna is a very experienced speaker. Her clear voice always brings a smile to the face of our clients.",
+        "es": "",
+        "pt": "Com mais de 2000 gravações de voz, Anna é uma oradora muito experiente. A sua voz clara traz sempre um sorriso ao rosto dos nossos clientes"
+      }
+    },
+    {
+      "name": {
+        "de": "Chris",
+        "en": "Chris",
+        "es": "",
+        "pt": "Chris"
+      },
+      "description": {
+        "de": "Mittlerweile hat Chris 8 Jahre Erfahrung als Sprecher. Ausgerüstet mit exzellentem Equipment liefert er einzigartige Voiceover.",
+        "en": "Meanwhile Chris has 8 years experience as a speaker. Equipped with excellent equipment he delivers unique voiceovers.",
+        "es": "",
+        "pt": "Neste momento, Chris já tem 8 anos de experiência como orador. Equipado com um excelente equipamento, ele fornece locuções únicas"
+      }
+    },
+    {
+      "name": {
+        "de": "Julien",
+        "en": "Julien",
+        "es": "",
+        "pt": "Julien"
+      },
+      "description": {
+        "de": "Als Audioingenieur und Sprecher hat Julien über 5 Jahre an Erfahrung sammeln können. Seine weiche, warme und zugleich freundliche Stimme machen ihn einzigartig.",
+        "en": "Julien has over 5 years of experience as an audio engineer and speaker. His soft, warm yet friendly voice makes him unique.",
+        "es": "",
+        "pt": "Como engenheiro de áudio e orador, Julien adquiriu mais de 5 anos de experiência. A sua voz suave, calorosa mas simpática torna-o único."
+      }
+    },
+    {
+      "name": {
+        "de": "Michael",
+        "en": "Michael",
+        "es": "",
+        "pt": "Michael"
+      },
+      "description": {
+        "de": "Egal ob im Radio, in Audiobüchern oder auf Youtube. Michael hat bereits viel Erfahrung im Sprechen sammeln können und ist in der Lage in verschiedensten Tonlagen zu ertönen.",
+        "en": "Whether on the radio, in audio books or on YouTube. Michael has already gained a lot of experience in speaking and is able to sound in different pitches.",
+        "es": "",
+        "pt": "Seja na rádio, em livros áudio ou no YouTube. Michael já ganhou muita experiência em falar e é capaz de soar em diferentes gramados"
+      }
+    },
+    {
+      "name": {
+        "de": "Till",
+        "en": "Till",
+        "es": "",
+        "pt": "Till"
+      },
+      "description": {
+        "de": "Seit 2020 bereichert Till Becker Videobakers mit seiner einzigarten und abwechslungsreichen Stimme. Dir gefällt was du hörst? Uns auch!",
+        "en": "Since 2020 Till Becker has been enriching Videobakers with his unique and varied voice. You like what you hear? We like it too!",
+        "es": "",
+        "pt": "Desde 2020 que Till Becker tem vindo a enriquecer os Videobakers com a sua voz única e variada. Gosta do que ouve? Nós também gostamos!"
+      }
+    },
+    {
+      "name": {
+        "de": "Lara",
+        "en": "Lara",
+        "es": "",
+        "pt": "Lara"
+      },
+      "description": {
+        "de": "Du suchst nach einer enthusiastischen, jungen und dynamischen Synchronsprecherin für dein Projekt ? Dann bist du bei Lara genau richtig! ",
+        "en": "",
+        "es": "",
+        "pt": ""
+      }
+    },
+    {
+      "name": {
+        "de": "Sue",
+        "en": "Sue",
+        "es": "",
+        "pt": "Sue"
+      },
+      "description": {
+        "de": "Mit Ihrer Stimme sorgt Sue dafür, dass dein Video Aufmerksamkeit erregt, in den Köpfen der Menschen bleibt und die Zuschauer dazu bringt, anderen davon zu erzählen!",
+        "en": "",
+        "es": "",
+        "pt": ""
+      }
+    },
+    {
+      "name": {
+        "de": "Oliver",
+        "en": "Oliver",
+        "es": "",
+        "pt": "Oliver"
+      },
+      "description": {
+        "de": "Oliver ist seit 2014 als Sprecher tätig und ebenfalls zahlreiche Sprachaufnahmen getätigt. Sachliche Themen sind bei Olivers ruhiger Stimme bestens aufgehoben.",
+        "en": "Oliver has been working as a speaker since 2014 and has also made numerous voice recordings. Objective topics are in good hands with Oliver's calm voice.",
+        "es": "",
+        "pt": "Oliver tem trabalhado como orador desde 2014 e também tem feito numerosas gravações de voz. Tópicos objectivos estão em boas mãos com a voz calma de Oliver"
+      }
+    }
+  ]
+}
