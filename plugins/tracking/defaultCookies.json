@@ -1,0 +1,28 @@
+{
+  "GOOGLE_ANALYTICS_COOKIE": {
+    "autoStart": true,
+    "cookie": "gatsby-gdpr-google-analytics"
+  },
+  "GOOGLE_ADS_COOKIE": {
+    "autoStart": true,
+    "cookie": "gatsby-gdpr-google-ads"
+  },
+  "HOTJAR_COOKIE": {
+    "autoStart": true,
+    "cookie": "gatsby-gdpr-hotjar-tracking"
+  },
+  "FACEBOOK_PIXEL_COOKIE": {
+    "autoStart": true,
+    "cookie": "gatsby-gdpr-facebook-pixel"
+  },
+  "ACCEPTED_TRACKING": {
+    "auto_start": false,
+    "cookie": "gatsby-gdpr-accepted-cookies"
+  },
+  "PREFERENCE_COOKIES": {
+    "cookie": "gatsby-user-preferences"
+  },
+  "HUBSPOT_COOKIES": {
+    "cookie": "gatsby-gdpr-hubspot"
+  }
+}
