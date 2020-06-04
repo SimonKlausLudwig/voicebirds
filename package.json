@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf docs && gatsby build && mv public docs && echo \"voicebirds.de\" > docs/CNAME",
+    "build": "gatsby clean && rm -rf docs && gatsby build && mv public docs && echo \"voicebirds.de\" > docs/CNAME",
     "dev": "gatsby develop",
     "install-collection": "node install-collection.js",
     "lint": "yarn lint:js && yarn lint:style && yarn lint:prettier",
