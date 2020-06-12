@@ -1,5 +1,12 @@
 @import 'test_project/src/layout/base.scss';
 
+.viewAllSpeakers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
 .teaser {
 
   display: grid;

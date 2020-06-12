@@ -53,7 +53,8 @@
         "en": "Falk is a voice over artist and audio engineer with 20 years of experience. He particularly impresses his listeners with his lively and energetic voice.",
         "es": "",
         "pt": "Falk é uma voz sobre artista e engenheiro de áudio com 20 anos de experiência. Ele impressiona os seus ouvintes especialmente com a sua voz viva e enérgica"
-      }
+      },
+      "price": "premium"
     },
     {
       "name": {
@@ -67,7 +68,8 @@
         "en": "With over 2000 voice recordings Anna is a very experienced speaker. Her clear voice always brings a smile to the face of our clients.",
         "es": "",
         "pt": "Com mais de 2000 gravações de voz, Anna é uma oradora muito experiente. A sua voz clara traz sempre um sorriso ao rosto dos nossos clientes"
-      }
+      },
+      "price": "premium"
     },
     {
       "name": {
@@ -81,7 +83,8 @@
         "en": "Meanwhile Chris has 8 years experience as a speaker. Equipped with excellent equipment he delivers unique voiceovers.",
         "es": "",
         "pt": "Neste momento, Chris já tem 8 anos de experiência como orador. Equipado com um excelente equipamento, ele fornece locuções únicas"
-      }
+      },
+      "price": "budget"
     },
     {
       "name": {
@@ -95,7 +98,8 @@
         "en": "Julien has over 5 years of experience as an audio engineer and speaker. His soft, warm yet friendly voice makes him unique.",
         "es": "",
         "pt": "Como engenheiro de áudio e orador, Julien adquiriu mais de 5 anos de experiência. A sua voz suave, calorosa mas simpática torna-o único."
-      }
+      },
+      "price": "enterprise"
     },
     {
       "name": {
@@ -109,7 +113,8 @@
         "en": "Whether on the radio, in audio books or on YouTube. Michael has already gained a lot of experience in speaking and is able to sound in different pitches.",
         "es": "",
         "pt": "Seja na rádio, em livros áudio ou no YouTube. Michael já ganhou muita experiência em falar e é capaz de soar em diferentes gramados"
-      }
+      },
+      "price": "budget"
     },
     {
       "name": {
@@ -123,7 +128,8 @@
         "en": "Since 2020 Till Becker has been enriching Videobakers with his unique and varied voice. You like what you hear? We like it too!",
         "es": "",
         "pt": "Desde 2020 que Till Becker tem vindo a enriquecer os Videobakers com a sua voz única e variada. Gosta do que ouve? Nós também gostamos!"
-      }
+      },
+      "price": "premium"
     },
     {
       "name": {
@@ -137,7 +143,8 @@
         "en": "",
         "es": "",
         "pt": ""
-      }
+      },
+      "price": "premium"
     },
     {
       "name": {
@@ -151,7 +158,8 @@
         "en": "",
         "es": "",
         "pt": ""
-      }
+      },
+      "price": "enterprise"
     },
     {
       "name": {
@@ -165,7 +173,8 @@
         "en": "Oliver has been working as a speaker since 2014 and has also made numerous voice recordings. Objective topics are in good hands with Oliver's calm voice.",
         "es": "",
         "pt": "Oliver tem trabalhado como orador desde 2014 e também tem feito numerosas gravações de voz. Tópicos objectivos estão em boas mãos com a voz calma de Oliver"
-      }
+      },
+      "price": "budget"
     }
   ]
 }

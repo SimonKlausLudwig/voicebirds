@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/pages/404.tsx"],"names":["NotFound"],"mappings":"6FAAA,gCAIeA,UAFY,kBAAM","file":"component---src-pages-404-tsx-006fee5d8b3bf80c7667.js","sourcesContent":["import React from 'react';\n\nconst NotFound: React.FC = () => <div>Error 404 - Not Found</div>;\n\nexport default NotFound;\n"],"sourceRoot":""}

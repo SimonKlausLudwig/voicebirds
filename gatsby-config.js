@@ -12,6 +12,17 @@ module.exports = {
     'gatsby-plugin-sharp',
     'gatsby-plugin-styled-components',
     {
+      resolve:`gatsby-source-cloudinary`,
+      options: {
+        cloudName: "hvioxpubt",
+        apiKey: "518866949354542",
+        apiSecret: "pR7YEMgxQanLw26MCsrJi_-WzKk",
+        resourceType: `video`,
+        prefix: 'Videos',
+        maxResults: `200`,
+      }
+    },
+    {
       resolve: `gatsby-plugin-favicon`,
       options: {
         logo: "./src/assets/favico.svg",

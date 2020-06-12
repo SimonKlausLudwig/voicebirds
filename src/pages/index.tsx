@@ -1,5 +1,4 @@
 import React from 'react';
-import Illustration from "../../test_project/src/illustration";
 import BlockTitle from "../../test_project/src/title";
 import Speaker, {SpeakerArea} from "../../test_project/src/speaker";
 import * as style from './style.module.scss';
@@ -13,10 +12,10 @@ import Container, {Mode} from "../../test_project/src/container";
 import Space from "../../test_project/src/space";
 import {Testimonials} from "../../test_project/src/testimonials";
 import Form from "../../test_project/src/form";
-import Video from "../../test_project/src/video/video";
 import {i18n_speakers} from "../i18n/language_speakers";
 import IllustrationAlt from "../../test_project/src/illustration_alt";
 import SEO from "../../test_project/src/seo/seo";
+import {navigate} from 'gatsby';
 
 const IndexPage: React.FC = (props) => {
   return (
@@ -34,10 +33,8 @@ const IndexPage: React.FC = (props) => {
             <p>Mit Voicebirds findest du innerhalb von nur 1 Minute den richtigen Sprecher. Ob für einen Film, eine
               Bandansage oder für einen Trailer, alles kein Problem mit Voicebirds!</p>
             <div className={style.buttonBar}>
-              <Button className={style.teaserButton} buttonSize={ButtonSize.BIG} onClick={() => {
-              }}>Zum Konfigurator</Button>
-              <Button buttonSize={ButtonSize.BIG} secondary={true} onClick={() => {
-              }}>Beispiele</Button>
+              <Button className={style.teaserButton} buttonSize={ButtonSize.BIG} onClick={() => navigate(PAGE_PATHS.KONFIGURATOR.path)}>Zum Konfigurator</Button>
+              <Button buttonSize={ButtonSize.BIG} secondary={true} onClick={() => navigate(PAGE_PATHS.SPRECHER.path)}>Beispiele</Button>
             </div>
           </div>
         </div>
@@ -64,6 +61,9 @@ const IndexPage: React.FC = (props) => {
         <BlockTitle title={"Unsere Sprecher im Überblick"}
                     description={"Du kannst unsere Sprecher in den drei Kategorien Budget, Premium und Enterprise buchen."}/>
         <FilterGrid items={(filter: PriceModes) => getSpeakerList(filter)}/>
+        <div className={style.viewAllSpeakers}>
+          <Button buttonSize={ButtonSize.BIG} onClick={() => navigate(PAGE_PATHS.SPRECHER.path)}>Alle Sprecher anhören</Button>
+        </div>
       </Container>
 
       <Space/>
@@ -97,6 +97,7 @@ export default IndexPage;
 
 export const getSpeakerList = (filter: PriceModes) => {
   return i18n_speakers
+    .filter(speaker => speaker.price === filter || filter === PriceModes.ALL)
     .map(speaker => <Speaker name={speaker.name}
                              image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"}
                              mp3={require(`./../assets/speakers/${speaker.name.toLowerCase()}.mp3`)}
