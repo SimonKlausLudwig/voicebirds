@@ -60,7 +60,7 @@ const IndexPage: React.FC = (props) => {
       <Container mode={Mode.FULL}>
         <BlockTitle title={"Unsere Sprecher im Überblick"}
                     description={"Du kannst unsere Sprecher in den drei Kategorien Budget, Premium und Enterprise buchen."}/>
-        <FilterGrid items={(filter: PriceModes) => getSpeakerList(filter)}/>
+        <FilterGrid items={() => getSpeakerList(PriceModes.ALL)}/>
         <div className={style.viewAllSpeakers}>
           <Button buttonSize={ButtonSize.BIG} onClick={() => navigate(PAGE_PATHS.SPRECHER.path)}>Alle Sprecher anhören</Button>
         </div>
@@ -68,7 +68,7 @@ const IndexPage: React.FC = (props) => {
 
       <Space/>
 
-      <Container>
+      <Container id={"reviews"}>
 
         <BlockTitle title={"Unsere Sprecher im Überblick"}
                     description={"Du kannst unsere Sprecher in den drei Kategorien Budget, Premium und Enterprise buchen."}/>
@@ -99,7 +99,7 @@ export const getSpeakerList = (filter: PriceModes) => {
   return i18n_speakers
     .filter(speaker => speaker.price === filter || filter === PriceModes.ALL)
     .map(speaker => <Speaker name={speaker.name}
-                             image={"https://videobakers.de/static/anna-92264f4ac7832f3fee808ba923cadc05.jpg"}
+                             image={require(`./../assets/speakers/${speaker.name.toLowerCase()}.jpg`)}
                              mp3={require(`./../assets/speakers/${speaker.name.toLowerCase()}.mp3`)}
                              areas={[SpeakerArea.PHONE, SpeakerArea.RADIO]}/>)
 }
